@@ -127,7 +127,7 @@ const changeLanguage = (langCode) => {
             <div className="container py-1 md:py-0">
                 <div className="flex justify-between items-center">
                     <div className="flex resize-none">
-                        <a href="#"><img src={logo} alt="" className="w-16 z-[10000] relative"></img></a>
+                        <a href="#"><img src={logo} alt="" className="w-[50px] sm:w-16 z-[10000] relative"></img></a>
                     </div>
                     <div className="hidden md:block">
                         <ul className="flex items-center gap-6">
@@ -176,13 +176,13 @@ const changeLanguage = (langCode) => {
                       showMenu?(
                       <HiMenuAlt1
                       onClick={togglemenu} 
-                      size={60}
+                      size={50}
                      className="cursor-pointer transition-all fill-white z-[10000] relative"
                      />
                       ): (
                      <HiMenuAlt3 
                      onClick={togglemenu} 
-                     size={60}
+                     size={50}
                      className="cursor-pointer transition-all fill-white"
                      />
                        )
