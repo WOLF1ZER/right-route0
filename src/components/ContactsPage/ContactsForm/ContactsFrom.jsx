@@ -61,7 +61,7 @@ const ContactsForm = () => {
                                     {...register('firstname', {
                                         required: t("forme1"),
                                         minLength: { value: 2, message: t("forme6") },
-                                        pattern: { value: /^[a-zA-Zа-яА-ЯёЁїЇіІєЄґҐ'\\-\\s]+$/, message: t("forme2") },
+                                        
                                     })}
                                 />
                             </label>
