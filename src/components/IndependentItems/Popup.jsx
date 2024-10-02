@@ -89,10 +89,7 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
                                                 value: 2,
                                                 message: t("forme6"),
                                             },
-                                            pattern: {
-                                                value: /^[a-zA-Zа-яА-ЯёЁїЇіІєЄґҐ'\\-\\s]+$/,
-                                                message: t("forme2"),
-                                            },
+                                
                                         })}
                                     />
                                 </label>
@@ -108,10 +105,7 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
                                         placeholder={t("formp2")}
                                         {...register('lastname', {
                                             required: t("forme1"),
-                                            pattern: {
-                                                value: /^[a-zA-Zа-яА-ЯёЁїЇіІєЄґҐ'\\-\\s]+$/,
-                                                message: t("forme3"),
-                                            },
+                                            
                                             minLength: {
                                                 value: 2,
                                                 message: t("forme6"),
